@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Your Name — Frontend Developer" />
+  <title>Your Name | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#hero" class="logo">Akshaya M</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="accent">Akshaya M</span></h1>
+        <p class="tagline">Frontend developer crafting clean, responsive web experiences.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer currently interning and building my foundation
+        in HTML, CSS, and JavaScript. I love turning ideas into functional, accessible
+        interfaces and I'm always learning something new.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Java</li>
+        <li>Git &amp; GitHub</li>
+        <li>Cybersecurity And AI</li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Web App</h3>
+          <p>A responsive landing page built with semantic HTML and CSS Grid.</p>
+          <p class="tech">HTML · CSS</p>
+          <a href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+        <article class="project-card">
+          <h3>To-Do App</h3>
+          <p>A to-do app with localStorage persistence and dark mode toggle.</p>
+          <p class="tech">JavaScript · CSS</p>
+          <a href="https://github.com/yourusername/project-two" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+        <article class="project-card">
+          <h3>Weather App</h3>
+          <p>A weather dashboard consuming a public REST API.</p>
+          <p class="tech">JavaScript · Fetch API</p>
+          <a href="https://github.com/yourusername/project-three" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Let's connect — I'm open to opportunities and collaboration.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:you@example.com">you@example.com</a></li>
+        <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Akshaya M. Built with plain HTML, CSS &amp; JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
